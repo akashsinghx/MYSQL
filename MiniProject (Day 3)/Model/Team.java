@@ -1,4 +1,5 @@
 package com.ltts.model;
+
 public class Team {
 	private int team_id;
 	private String teamname;
@@ -44,5 +45,6 @@ public class Team {
 		return "Team [team_id=" + team_id + ", teamname=" + teamname + ", ownername=" + ownername + ", coachname="
 				+ coachname + "]";
 	}
+    
     
 }
